@@ -1,0 +1,127 @@
+.main-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .date-container {
+    display: flex;
+ }
+
+ .date-container .date-group {
+    margin: 0 2px;
+ }
+ 
+ .date-container .date-group p{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+ }
+
+ .date-container .date-group input[type="date"]{
+    border: 2px solid rgb(227, 227, 227);
+    padding: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+ }
+
+ .dimension-container button ,.main-container button {
+    padding: 5px 10px;
+    background:transparent;
+    border: 1.5px solid lightgrey;
+    cursor: pointer;
+    width: 150px;
+    text-align: left;
+    margin: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: rgb(98, 96, 96);
+    border-left: 4px solid blue;
+ }
+
+ .dimension-buttons:hover {
+    background-color:rgb(244, 244, 244);
+ }
+
+ .dimension-container {
+    border: 1px solid #EAEAEA;
+    padding: 0 .5rem;
+    margin-top: 1rem;
+    height: 200px auto;
+ }
+
+
+ .dimension-container .heading {
+    color: grey;
+ }
+
+ .dimension-container .buttons {
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    align-items: center;
+ 
+ }
+
+ .dimension-container .footer button {
+     width: auto;
+     padding: .5rem;
+ }
+
+ 
+ .dimension-container .footer > .btn-close {
+    border:1px solid lightgrey
+ }
+
+
+ .dimension-container .footer > .btn-apply {
+    background-color: blue;
+    color: #fff;
+ }
+
+ /* Tables styling */
+
+.Table-container {
+  margin-top: 2rem;
+}
+
+Table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 92, 92);
+}
+
+
+.table-heading {
+    line-height: .5;
+    padding: 1rem;
+    text-align: left;
+}
+
+table .table-heading .title {
+    color: rgb(95, 92, 92);
+    font-weight: normal;
+}
+
+td {
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #484747;
+}
+
+tr {
+    border-bottom: 1px solid rgb(220, 220, 220);
+    border-collapse: collapse;
+   
+}

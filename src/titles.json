@@ -1,0 +1,47 @@
+[
+    {
+        "id" : "date-true",
+        "title" : "Date",
+        "showData" : "false"
+    },
+    {
+        "id" : "app-true",
+        "title" : "App",
+        "showData" : "false"
+    },
+    {
+        "id" : "click-true",
+        "title" : "Clicks",
+        "showData" : "false"
+    },
+    {
+        "id" : "ad_request-true",
+        "title" : "Ad Requests",
+        "showData" : "false"
+    },
+    {
+        "id" : "ad_response-true",
+        "title" : "Ad Response",
+        "showData" : "false"
+    },
+    {
+        "id" : "impress-true",
+        "title" : "Impression",
+        "showData" : "false"
+    },
+    {
+        "id" : "revenue-true",
+        "title" : "Revenue",
+        "showData" : "false"
+    },
+    {
+        "id" : "fill_rate-true",
+        "title" : "Fll Rate",
+        "showData" : "false"
+    },
+    {
+        "id" : "ctr-true",
+        "title" : "CTR",
+        "showData" : "false"
+    } 
+]
